@@ -1,5 +1,4 @@
-#theme: jekyll-theme-modernist
-theme: jekyll-swiss
+remote_theme: broccolini/swiss
 
 title: [Plume Technical Web Site]
 description: [Ramdom techcinal notes related to Plume]
