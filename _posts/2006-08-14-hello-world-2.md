@@ -3,7 +3,7 @@ id: 6
 title: Hello World
 date: 2006-08-14T22:17:43+00:00
 author: captain
-layout: post
+layout: default
 guid: http://plume.flupes.org/blog/2006/hello-world/
 permalink: /2006/hello-world-2/
 categories:
