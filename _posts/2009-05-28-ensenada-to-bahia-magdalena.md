@@ -3,7 +3,7 @@ id: 54
 title: Ensenada to Bahia Magdalena (Mexico)
 date: 2009-05-28T20:58:18+00:00
 author: captain
-layout: post
+layout: default
 guid: http://plume.flupes.org/blog/?p=54
 permalink: /2009/ensenada-to-bahia-magdalena/
 categories:

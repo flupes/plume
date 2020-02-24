@@ -3,7 +3,7 @@ id: 175
 title: Guaymas to San Carlos
 date: 2010-05-03T00:00:32+00:00
 author: cecile
-layout: post
+layout: default
 guid: http://plume.flupes.org/blog/?p=175
 permalink: /2010/guaymas-to-san-carlos/
 categories:

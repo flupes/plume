@@ -3,7 +3,7 @@ id: 171
 title: From Topolobampo to Guaymas via Yavaros
 date: 2010-04-25T13:46:55+00:00
 author: cecile
-layout: post
+layout: default
 guid: http://plume.flupes.org/blog/?p=171
 permalink: /2010/from-topolobampo-to-guaymas-via-yavaros/
 categories:

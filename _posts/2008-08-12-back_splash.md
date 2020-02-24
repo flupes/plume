@@ -3,7 +3,7 @@ id: 15
 title: 'We are back &#8211; splash!'
 date: 2008-08-12T19:24:12+00:00
 author: captain
-layout: post
+layout: default
 guid: http://plume.flupes.org/blog/?p=15
 permalink: /2008/back_splash/
 categories:

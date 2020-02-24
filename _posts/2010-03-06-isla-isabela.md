@@ -3,7 +3,7 @@ id: 159
 title: Isla Isabela
 date: 2010-03-06T20:57:42+00:00
 author: cecile
-layout: post
+layout: default
 guid: http://plume.flupes.org/blog/?p=159
 permalink: /2010/isla-isabela/
 categories:

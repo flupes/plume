@@ -3,7 +3,7 @@ id: 104
 title: Hola Mexico
 date: 2010-01-11T20:44:02+00:00
 author: captain
-layout: post
+layout: default
 guid: http://plume.flupes.org/blog/?p=104
 permalink: /2010/hola-mexico/
 categories:

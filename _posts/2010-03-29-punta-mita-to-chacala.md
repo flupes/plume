@@ -3,7 +3,7 @@ id: 165
 title: Punta Mita to Chacala
 date: 2010-03-29T17:14:00+00:00
 author: plume
-layout: post
+layout: default
 guid: http://plume.flupes.org/blog/?p=165
 permalink: /2010/punta-mita-to-chacala/
 categories:

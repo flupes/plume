@@ -3,7 +3,7 @@ id: 154
 title: Guaymas by the Sea
 date: 2010-02-06T21:41:05+00:00
 author: captain
-layout: post
+layout: default
 guid: http://plume.flupes.org/blog/?p=154
 permalink: /2010/guaymas-by-the-sea-2/
 categories:
