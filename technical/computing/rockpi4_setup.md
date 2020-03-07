@@ -5,6 +5,14 @@
 Download armbian image with desktop from:
 https://www.armbian.com/rock-pi-4/
 
+Buster image with kernel 5.x give too much trouble:
+- 1600x1200 resolution not available
+- sometime kernel does not boot
+So for now we stick with Bionic + kernel 4.4.x
+
+Verify image authenticity and shasum:
+https://docs.armbian.com/User-Guide_Getting-Started/#how-to-check-download-authenticity
+
 Flash on eMMC using uSD card adapter with balenaEtcher following:
 https://wiki.radxa.com/Rockpi4/getting_started
 
@@ -15,24 +23,46 @@ https://wiki.radxa.com/Rockpi4/downloads
 
 Connect a USB-Serial (FTDI) cable between a host computer and the SBC:
 https://wiki.radxa.com/Rockpi4/dev/serial-console
-With the Sparkfun cable:
-ORANGE=RX <--> TX=pin 8 + YELLOW=TX <--> RX=pin 10
-Configure serial terminal following the instruction above
-  + echo line + editing line for Putty
+With the Sparkfun cable (1=BLACK / 4=ORANGE / 5=YELLOW):
+
+| USB to Serial | Rock Pi 4   |
+|---------------| ------------|
+| BLACK (GND)   | GND = Pin 6 |
+| YELLOW (RX)   | TX = Pin 8  |
+| ORANGE (TX)   | RX = Pin 10 |
+
+Configure serial terminal following the instruction above:
+  - bps = 1500000
+  - databits = 8
+  - stop bits = 1
+  - parity = None
+  - Flow control = disable (=XON/XOFF?)
+  - echo line
+  - editing line for Putty
 
 Install eMMC on board + keyboard and mouse + HDMI cable
 
-Note: the serial console to a host computer is critical, because when booting out of the eMMC, Armbian does NOT initially connect to the display! It is then necessary to go through the initial setup steps (password + new user) using the serial console :-(
+Note: the serial console to a host computer is critical, because when booting 
+out of the eMMC, Armbian does NOT initially connect to the display! It is then 
+necessary to go through the initial setup steps (password + new user) using 
+the serial console :-(
 
-Boot, follow Armbian setup on the serial console. Finally, lightdm should come up on the monitor. If not, try power cycling the monitor.
+Armbian first boot password for root: 1234
 
-sudo apt update
-sudo apt upgrade
+Boot, follow Armbian setup on the serial console (new root password, new user).
+Finally, lightdm should come up on the monitor.
+If not, try power cycling the monitor.
+
+1. Connect to some wifi network
+2. Update the distro
+    sudo apt update
+    sudo apt upgrade
 
 Add the Radxa PPA following:
 https://wiki.radxa.com/Rockpi4/radxa-apt
 
-Note: install heatsink as soon a board in a stable config. The CPU is running easily to the limit (90C) without heatsink, and throttles down.
+Note: install heatsink as soon a board in a stable config. The CPU is running
+easily to the limit (90C) without heatsink, and throttles down.
 
 ## Tweaks
 
@@ -60,9 +90,11 @@ sudo systemctl disable NetworkManager-wait-online.service
 
 ### armbian-config
 
+   sudo armbian-config
+
 - System
   - disable Avahi annouce
-  - disable ssh root login
+  - disable ssh root login (SSH config)
   - enable zsh and tmux
 - Personal
   - Set Timezone
@@ -76,13 +108,14 @@ Configure the delay with the control panel (with my display, blank/sleep/off hav
 ### Other
 
 - Settings --> Appearance --> Font --> Custom DPI (144 for my 1600x1200 12in display)
-
 - Settings --> Panel --> Display --> Row Size = 32
 - Settings --> Desktop --> Icons --> Icon size = 64 + "Single click to activate items"
 - Settings --> Desktop --> Background --> Folder = Pictures + Style = Centered + select desired image
 
 - Enable multi-touch (not sure if it was finally required or not):
 ` sudo apt install xserver-xorg-input-mtrack`
+
+- Terminal color preference: Tango
 
 ## OpenCPN
 
