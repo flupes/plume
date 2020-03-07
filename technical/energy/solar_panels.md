@@ -54,7 +54,7 @@ Main specs:
 
 ### Spectra Solar
 
-  - https://www.emarineinc.com/Shared/pdf/Solara/SOLARA_M_series.pdf
+  - https://www.emarineinc.com/pdf/Spectra-Solar-Lite-Datasheet.pdf
   - flexible up to 3%
 
 #### Spectralite 20 (19 W)
