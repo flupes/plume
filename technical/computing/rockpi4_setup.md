@@ -25,11 +25,15 @@ Connect a USB-Serial (FTDI) cable between a host computer and the SBC:
 https://wiki.radxa.com/Rockpi4/dev/serial-console
 With the Sparkfun cable (1=BLACK / 4=ORANGE / 5=YELLOW):
 
-| USB to Serial | Rock Pi 4   |
-|---------------| ------------|
-| BLACK (GND)   | GND = Pin 6 |
-| YELLOW (RX)   | TX = Pin 8  |
-| ORANGE (TX)   | RX = Pin 10 |
+Rock Pi 4 Header numbering: pin 1 is YELLOW = inside row, next to th
+board edge (away from USB connectors)
+
+| USB to Serial  | USB Debug   | Rock Pi 4   | Header Position |
+| Sparkfun Cable | Radxa Cable | Pin         | Outside Row     |
+|----------------| ------------|-------------|-----------------|
+| BLACK (GND)    | BLACK       | GND = Pin 6 | 3rd from top    |
+| YELLOW (RX)    | WHITE (RXD) | TX = Pin 8  | 4th from top    |
+| ORANGE (TX)    | GREEN (TXD) | RX = Pin 10 | 5th from top    |
 
 Configure serial terminal following the instruction above:
   - bps = 1500000
