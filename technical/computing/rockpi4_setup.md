@@ -187,7 +187,7 @@ sudo apt install gcc-8-base:armhf libc6:armhf libgcc1:armhf libstdc++6:armhf lib
 cd /usr/bin
 sudo rm oeserverd
 sudo cp ~/oeserved_pi-armhf .
-sudo ln -s oeserved_pi-armhf oeserverd
+sudo ln -s oeserverd_pi-armhf oeserverd
 cd ../lib
 sudo cp  ~/libsglarmhf32-2.30.0.0.so .
 ```
