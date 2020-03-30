@@ -71,6 +71,8 @@ easily to the limit (90C) without heatsink, and throttles down.
 ## Tweaks
 
 ### armbianEnv.txt
+
+*Note: this section has been skipped from 2020-03-20, because it does not seem to speedup the boot process!*
 ```
 captain@rockpi:~$ cat /boot/armbianEnv.txt 
 verbosity=2
@@ -84,8 +86,10 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
  - `console=both` → allow output in the console
 
 ### Services to disable
+
+*Note: this section has been skipped from 2020-03-20, because it does not seem to speedup the boot process!*
 ```
-systemd list-jobs
+systemctl list-jobs
 sudo systemctl stop rk3399-bluetooth.service
 sudo systemctl disable rk3399-bluetooth.service
 # the service below also seems to hang for nothing
