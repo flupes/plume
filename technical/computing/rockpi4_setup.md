@@ -101,11 +101,18 @@ sudo systemctl disable NetworkManager-wait-online.service
    sudo armbian-config
 
 - System
+  - Freeze firmware
   - disable Avahi annouce
   - disable ssh root login (SSH config)
   - enable zsh and tmux
 - Personal
   - Set Timezone
+  - Hostname
+  
+### Bring up to date
+
+    sudo apt update
+    sudo apt upgrade
 
 ### Put display to sleep
 
