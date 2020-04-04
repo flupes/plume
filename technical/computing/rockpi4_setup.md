@@ -71,6 +71,8 @@ easily to the limit (90C) without heatsink, and throttles down.
 ## Tweaks
 
 ### armbianEnv.txt
+
+*Note: this section has been skipped from 2020-03-20, because it does not seem to speedup the boot process!*
 ```
 captain@rockpi:~$ cat /boot/armbianEnv.txt 
 verbosity=2
@@ -84,8 +86,10 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
  - `console=both` → allow output in the console
 
 ### Services to disable
+
+*Note: this section has been skipped from 2020-03-20, because it does not seem to speedup the boot process!*
 ```
-systemd list-jobs
+systemctl list-jobs
 sudo systemctl stop rk3399-bluetooth.service
 sudo systemctl disable rk3399-bluetooth.service
 # the service below also seems to hang for nothing
@@ -97,11 +101,18 @@ sudo systemctl disable NetworkManager-wait-online.service
    sudo armbian-config
 
 - System
+  - Freeze firmware
   - disable Avahi annouce
   - disable ssh root login (SSH config)
   - enable zsh and tmux
 - Personal
   - Set Timezone
+  - Hostname
+  
+### Bring up to date
+
+    sudo apt update
+    sudo apt upgrade
 
 ### Put display to sleep
 
@@ -176,7 +187,7 @@ sudo apt install gcc-8-base:armhf libc6:armhf libgcc1:armhf libstdc++6:armhf lib
 cd /usr/bin
 sudo rm oeserverd
 sudo cp ~/oeserved_pi-armhf .
-sudo ln -s oeserved_pi-armhf oeserverd
+sudo ln -s oeserverd_pi-armhf oeserverd
 cd ../lib
 sudo cp  ~/libsglarmhf32-2.30.0.0.so .
 ```
