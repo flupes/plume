@@ -180,3 +180,11 @@ sudo ln -s oeserved_pi-armhf oeserverd
 cd ../lib
 sudo cp  ~/libsglarmhf32-2.30.0.0.so .
 ```
+
+## Ramdom Notes
+
+### set wakeup alarm
+date -d "today 21:35" '+%s' | sudo tee /sys/class/rtc/rtc0/wakealarm
+
+### suspend mode
+echo mem | sudo tee /sys/power/state
