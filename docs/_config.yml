@@ -1,5 +1,5 @@
-#theme: jekyll-theme-minimal
-remote_theme: daattali/beautiful-jekyll@4.1.0
+theme: jekyll-theme-minimal
+#remote_theme: daattali/beautiful-jekyll@4.1.0
 
 title: [Plume]
 description: [Plume test web site]
