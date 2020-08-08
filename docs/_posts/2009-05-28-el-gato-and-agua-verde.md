@@ -3,7 +3,7 @@ id: 62
 title: El Gato and Agua Verde (Mexico)
 date: 2009-05-28T21:06:45+00:00
 author: captain
-layout: default
+layout: post
 permalink: /2009/el-gato-and-agua-verde/
 categories:
   - Cruising

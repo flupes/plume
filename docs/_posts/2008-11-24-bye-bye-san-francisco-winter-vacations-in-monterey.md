@@ -3,7 +3,7 @@ id: 23
 title: 'Bye Bye San Francisco&#8230;'
 date: 2008-11-24T13:51:23+00:00
 author: captain
-layout: default
+layout: post
 permalink: /2008/bye-bye-san-francisco-winter-vacations-in-monterey/
 categories:
   - Cruising

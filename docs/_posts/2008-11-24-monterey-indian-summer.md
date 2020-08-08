@@ -3,7 +3,7 @@ id: 29
 title: Monterey Indian Summer
 date: 2008-11-24T22:16:05+00:00
 author: plume
-layout: default
+layout: post
 permalink: /2008/monterey-indian-summer/
 categories:
   - Cruising

@@ -3,7 +3,7 @@ id: 156
 title: Topolobampo
 date: 2010-02-15T00:00:47+00:00
 author: cecile
-layout: default
+layout: post
 permalink: /2010/topolobampo/
 categories:
   - Cruising

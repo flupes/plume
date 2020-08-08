@@ -3,7 +3,7 @@ id: 176
 title: Barrancas del Cobre
 date: 2010-05-13T21:07:53+00:00
 author: cecile
-layout: default
+layout: post
 permalink: /2010/barrancas-del-cobre/
 categories:
   - Cruising

@@ -3,7 +3,7 @@ id: 167
 title: Chacala update
 date: 2010-03-30T14:53:00+00:00
 author: plume
-layout: default
+layout: post
 permalink: /2010/chacala-update/
 categories:
   - Cruising

@@ -3,7 +3,7 @@ id: 47
 title: Sausalito to Santa Barbara (US)
 date: 2009-05-28T20:51:03+00:00
 author: captain
-layout: default
+layout: post
 permalink: /2009/sausalito-to-santa-barbara/
 categories:
   - Cruising

@@ -3,7 +3,7 @@ id: 74
 title: Escondido to San Carlos (Mexico)
 date: 2009-07-01T05:04:54+00:00
 author: captain
-layout: default
+layout: post
 permalink: /2009/escondido-to-san-carlos/
 categories:
   - Cruising

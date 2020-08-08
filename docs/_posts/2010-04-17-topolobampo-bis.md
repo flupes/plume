@@ -3,7 +3,7 @@ id: 169
 title: Topolobampo Isla Santa Maria
 date: 2010-04-17T14:56:00+00:00
 author: plume
-layout: default
+layout: post
 permalink: /2010/topolobampo-bis/
 categories:
   - Cruising
