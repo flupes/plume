@@ -9,7 +9,7 @@ permalink: /2008/back_splash/
 categories:
   - Technical
 ---
-[<img class="inlineleft " title="2008-08_travellift" src="http://plume.flupes.org/wordpress/../blog/uploads/2008/08/2008-08_travellift-160x160.jpg" alt="Plume ready to be splashed" width="160" height="160" />](http://plume.flupes.org/wordpress/../blog/uploads/2008/08/2008-08_travellift.jpg)Well, almost two years since our last line&#8230; Not that we stopped working on Plume or did not sail. Just that web presence went down on our priority list.
+[<img class="inlineleft " title="2008-08_travellift" src="/assets/2008/08/2008-08_travellift-160x160.jpg" alt="Plume ready to be splashed" width="160" height="160" />](/assets/2008/08/2008-08_travellift.jpg)Well, almost two years since our last line&#8230; Not that we stopped working on Plume or did not sail. Just that web presence went down on our priority list.
 
 But now that we are going for more than a few day-sails, we ought to write something!
 

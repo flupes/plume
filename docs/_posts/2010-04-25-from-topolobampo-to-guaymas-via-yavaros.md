@@ -16,7 +16,7 @@ Yavaros was an interesting stop. First of all, the water is very shallow, both i
 Following fishing boats however, led us to a safe anchorage north of town, in front of a long dock used by an industrial fish factory (owned by Grupo Pando), and bordered by shipwrecks&#8230; Depending on the wind, the factory was sending us the interesting smell of fish oil. Worst of all, a few times a day the entire dock was shadowed by a dense cloud of black smoke. Thanks Grupo Pando for helping save our planet!!!!
 
 <div id="attachment_173" style="width: 490px" class="wp-caption alignleft">
-  <a rel="attachment wp-att-173" href="http://plume.flupes.org/blog/2010/from-topolobampo-to-guaymas-via-yavaros/yavaros/"><img class="size-medium wp-image-173 " title="Pollution from Grupo Pando at Yavaros" src="http://plume.flupes.org/wordpress/../blog/uploads/2010/04/Yavaros-640x480.jpg" alt="" width="480" height="320" /></a>
+  <a rel="attachment wp-att-173" href="http://plume.flupes.org/blog/2010/from-topolobampo-to-guaymas-via-yavaros/yavaros/"><img class="size-medium wp-image-173 " title="Pollution from Grupo Pando at Yavaros" src="/assets/2010/04/Yavaros-640x480.jpg" alt="" width="480" height="320" /></a>
   
   <p class="wp-caption-text">
     Pollution from Grupo Pando fish factory at Yavaros

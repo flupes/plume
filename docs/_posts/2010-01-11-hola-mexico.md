@@ -18,19 +18,19 @@ From there, the hard days to convert Plune-storage to Plume-sailboat started. Th
 <div id='gallery-1' class='gallery galleryid-104 gallery-columns-3 gallery-size-thumbnail'>
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://plume.flupes.org/blog/2010/hola-mexico/2010-01-07_jungleyard/'><img width="160" height="160" src="http://plume.flupes.org/wordpress/../blog/uploads/2010/01/2010-01-07_JungleYard-160x160.jpg" class="attachment-thumbnail size-thumbnail" alt="Vegetation growing well in the new deposited dirt from the flooding" /></a>
+      <a href='http://plume.flupes.org/blog/2010/hola-mexico/2010-01-07_jungleyard/'><img width="160" height="160" src="/assets/2010/01/2010-01-07_JungleYard-160x160.jpg" class="attachment-thumbnail size-thumbnail" alt="Vegetation growing well in the new deposited dirt from the flooding" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://plume.flupes.org/blog/2010/hola-mexico/2010-01-07_dirtydeck/'><img width="160" height="160" src="http://plume.flupes.org/wordpress/../blog/uploads/2010/01/2010-01-07_DirtyDeck-160x160.jpg" class="attachment-thumbnail size-thumbnail" alt="Deck covered with fine dirt" /></a>
+      <a href='http://plume.flupes.org/blog/2010/hola-mexico/2010-01-07_dirtydeck/'><img width="160" height="160" src="/assets/2010/01/2010-01-07_DirtyDeck-160x160.jpg" class="attachment-thumbnail size-thumbnail" alt="Deck covered with fine dirt" /></a>
     </dt>
   </dl>
   
   <dl class='gallery-item'>
     <dt class='gallery-icon landscape'>
-      <a href='http://plume.flupes.org/blog/2010/hola-mexico/2010-01-07_kenzocleaning/'><img width="160" height="160" src="http://plume.flupes.org/wordpress/../blog/uploads/2010/01/2010-01-07_KenzoCleaning-160x160.jpg" class="attachment-thumbnail size-thumbnail" alt="Kenzo always like to use the water hose" /></a>
+      <a href='http://plume.flupes.org/blog/2010/hola-mexico/2010-01-07_kenzocleaning/'><img width="160" height="160" src="/assets/2010/01/2010-01-07_KenzoCleaning-160x160.jpg" class="attachment-thumbnail size-thumbnail" alt="Kenzo always like to use the water hose" /></a>
     </dt>
   </dl>
   
