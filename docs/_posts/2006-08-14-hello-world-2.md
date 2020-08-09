@@ -1,9 +1,7 @@
 ---
-id: 6
 title: Hello World
 date: 2006-08-14T22:17:43+00:00
 author: captain
-layout: post
 permalink: /2006/hello-world-2/
 categories:
   - Others

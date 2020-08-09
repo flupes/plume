@@ -1,9 +1,7 @@
 ---
-id: 9
 title: Six on a small boat!
 date: 2006-08-22T23:50:19+00:00
 author: captain
-layout: post
 permalink: /2006/six-on-a-small-boat/
 categories:
   - Cruising

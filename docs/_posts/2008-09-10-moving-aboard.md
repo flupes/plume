@@ -3,7 +3,7 @@ id: 19
 title: Moving aboard
 date: 2008-09-10T22:22:57+00:00
 author: captain
-layout: post
+layout: single
 permalink: /2008/moving-aboard/
 categories:
   - Technical

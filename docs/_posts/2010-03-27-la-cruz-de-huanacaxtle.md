@@ -3,7 +3,7 @@ id: 162
 title: La Cruz de Huanacaxtle
 date: 2010-03-27T21:35:48+00:00
 author: cecile
-layout: post
+layout: single
 permalink: /2010/la-cruz-de-huanacaxtle/
 categories:
   - Cruising

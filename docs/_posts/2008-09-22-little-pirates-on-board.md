@@ -3,7 +3,7 @@ id: 20
 title: Little Pirates on Board!
 date: 2008-09-22T12:00:51+00:00
 author: captain
-layout: post
+layout: single
 permalink: /2008/little-pirates-on-board/
 categories:
   - Cruising

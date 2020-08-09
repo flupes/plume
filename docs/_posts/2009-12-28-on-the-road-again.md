@@ -3,7 +3,7 @@ id: 80
 title: On the road again
 date: 2009-12-28T22:25:32+00:00
 author: captain
-layout: post
+layout: single
 permalink: /2009/on-the-road-again/
 categories:
   - Others
